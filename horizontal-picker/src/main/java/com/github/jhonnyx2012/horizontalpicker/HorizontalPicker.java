@@ -94,7 +94,7 @@ public class HorizontalPicker extends LinearLayout implements HorizontalPickerLi
             tvMonth.setOnTouchListener(monthListener);
         }
 
-
+        tvMonth.setAllCaps(true);
         tvToday = (TextView) findViewById(R.id.tvToday);
         rvDays.setListener(this);
         tvToday.setOnClickListener(rvDays);
